@@ -187,7 +187,7 @@ ___
 
     ![alt](url text)
 - 外部图片链接
-  ![百度](https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png "百度网站")
+  ![百度](http://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png "百度网站")
 
 - 内部图片链接
   ![百度](./images/baidu.png "百度网站")
