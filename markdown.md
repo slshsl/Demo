@@ -2,6 +2,8 @@
 
 # vs code 使用 Markdown 编写文档
 
+## ANCHOR
+
 ## 使用 HTML 标签
 
 直接使用 HTML 标签，可以设置文字居中，字体颜色等样色(HTML 语法)
@@ -212,7 +214,28 @@ ___
 
 ## 图片链接
 
-    ![alt](url text)
+基本格式：
+
+```
+![alt](URL title)
+```
+
+alt和title即对应HTML中的alt和title属性（都可省略）：
+
+- alt表示图片显示失败时的替换文本
+
+- title表示鼠标悬停在图片时的显示文本（注意这里要加引号）
+
+URL即图片的url地址，如果引用本仓库中的图片，直接使用**相对路径**就可了
+
+如果引用其他github仓库中的图片要注意格式，即：`仓库地址/raw/分支名/图片路径`，如：
+
+```
+https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
+```
+
+---
+
 - 外部图片链接
   ![好123](https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2017-09-27/297f5edb1e984613083a2d3cc0c5bb36.png "好123网站")
 
@@ -221,6 +244,16 @@ ___
 
 - 图片引用链接
   ![百度]
+
+## 锚点
+其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们 
+
+|语法|效果|
+|---|---|
+|`[回到顶部](#ANCHOR)`|[回到锚点](#anchor)|
+
+不过要注意，标题中的英文字母都被转化为**小写字母**了。
+> 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！  
 
 ## 列表
 
@@ -272,4 +305,4 @@ markdom是个规范，GFM是github实现的markdown的方案
 [baidu]:http://baidu.com
 [ReadMe]:README.md
 [标记]:markdown.md#标记-demo
-[百度]:images/baidu.png
+[百度]:images/baidu.png "百度"
