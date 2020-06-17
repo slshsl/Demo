@@ -161,12 +161,19 @@ ___
 年后
 
 ## 链接
+- 外部链接
 
-https://github.com
+  1. https://github.com
 
-[GitHub](https://github.com)
+  2. [GitHub](https://github.com)
 
-[GitHub](https://github.com 'GitHub官网')
+  3. [GitHub](https://github.com 'GitHub官网')
+
+- 内部链接
+
+  1. 链接仓库其他文件：[ReadMe](README.md)
+
+  2. 链接本文档其他部分：[标记](markdown.md#标记)
 
 ## 列表
 
