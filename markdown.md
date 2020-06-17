@@ -102,10 +102,6 @@ Z<sub>a</sub>
 ---
 ___
 
-## 常用Font-Awesome
-
-:notebook:
-
 ## 代码块
 
 ```code
@@ -234,13 +230,15 @@ ___
 
 ## GFM
 
-GitHub Flvored Markdom
+GitHub Flvored Markdom，GFM
 markdom是个规范，GFM是github实现的markdown的方案
 1. task list
     - [x] item1
     - [ ] item2
     - [ ] item3
-2. 
+2. emojy表情符号 语法`:emojy code:`
+    - :notebook:
+    - :sleeping:
 
 
 <!---下面是文档中引用的连接--->
