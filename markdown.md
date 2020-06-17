@@ -187,10 +187,13 @@ ___
 
     ![alt](url text)
 - 外部图片链接
-  ![百度](https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2017-09-27/297f5edb1e984613083a2d3cc0c5bb36.png "百度网站")
+  ![好123](https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2017-09-27/297f5edb1e984613083a2d3cc0c5bb36.png "百度网站")
 
 - 内部图片链接
-  ![百度2](https://github.com/slshsl/Demo/blob/master/images/baidu.png "百度网站")
+  ![百度](images/baidu.png "百度网站")
+
+- 图片引用链接
+  ![百度]
 
 ## 列表
 
@@ -213,3 +216,4 @@ ___
 [baidu]:http://baidu.com
 [ReadMe]:README.md
 [标记]:markdown.md#标记-demo
+[百度]:images/baidu.png
