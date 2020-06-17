@@ -28,10 +28,17 @@
     ---
 ```
 
-## 段落
+## 文本
 
-这是段落
-这是段落
+#### 换行
+
+直接回车不能换行，
+可以在上一行文本后面补两个空格，
+这样下一行的文本就换行了。
+
+或者就是在两行文本直接加一个空行。
+
+也能实现换行效果，不过这个行间距有点大。
 
 ## 引用
 
@@ -236,11 +243,9 @@ markdom是个规范，GFM是github实现的markdown的方案
     - [x] item1
     - [ ] item2
     - [ ] item3
-2. emojy表情符号 语法`:emojy code:`
+2. emojy表情符号 语法`:emojy code:`  
     - :notebook:
     - :sleeping:
-
-
 <!---下面是文档中引用的连接--->
 [好看]:http://hao123.com
 [baidu]:http://baidu.com
