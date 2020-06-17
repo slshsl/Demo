@@ -190,7 +190,7 @@ ___
   ![百度](https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2017-09-27/297f5edb1e984613083a2d3cc0c5bb36.png "百度网站")
 
 - 内部图片链接
-  ![百度](https://github.com/slshsl/Demo/images/baidu.png "百度网站")
+  ![百度](https://github.com/slshsl/Demo/master/images/baidu.png "百度网站")
 
 ## 列表
 
