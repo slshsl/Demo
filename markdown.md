@@ -80,9 +80,8 @@ $\underline{下划线}$
 ==背景色== 
 
 ## 脚注
-Superscript - superscript^superscript^
-Subscript - subscript~subscript~
 H~2~O
+n^2^
 
 
 ## 语义标签
