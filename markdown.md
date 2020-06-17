@@ -257,9 +257,9 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 
 ## 列表
 
-  1. 有序列表
-      1. 姓名
-         1. 你好
+  1. 有序列表:这是一级的有序列表(在github中，数字1还是1)
+      1. 姓名:这是二级的有序列表(在github中，阿拉伯数字在显示的时候变成了罗马数字)
+         1. 你好: 这是三级的有序列表(在github中，数字在显示的时候变成了英文字母)
          2. 你好
       2. 姓名
       3. 名称
