@@ -7,16 +7,13 @@
 直接使用 HTML 标签，可以设置文字居中，字体颜色等样色(HTML 语法)
 
 ```code
-代码：
     <div align="center" style="color:red">VS Code 使用 Markdown 编写文档</div>
 ```
-演示：
 <div align="center" style="color:red">VS Code 使用 Markdown 编写文档</div>
 
 ## 标题写法
 
 ```code
-代码：
     注：# 后面保持空格（和使用 h1/h2 标签功能类似）
     代码:      
     # 标题1
@@ -39,31 +36,28 @@
 ## 引用
 
 ```code
-代码1(单行式)：
+单行式：
     > hello world!
 ```
-演示1：
 > hello world!
 
 ```code
-代码2(多行式)：
+多行式：
     > hello world!  
     > hello world!  
     > hello world!  
     > hello world!  
 ```
-演示2：
 > hello world!  
 > hello world!  
 > hello world! 
 
 ```code
-代码3(多行嵌套)：
+多行嵌套：
     > hello world!  
     >> hello world!  
     >>> hello world! 
 ```
-演示3：
 > hello world!
 >> hello world!
 >>> hello world!
@@ -71,15 +65,21 @@
 ## 强调（粗体、倾斜、删除）
 
 *斜体*、_斜体_
+
 **加粗** 、__加粗__
+
 ***加粗+斜体***、**_加粗+斜体_**
+
 ~~删除线~~
+
 $\underline{下划线}$
 
 ## 标记 demo
+
 ==背景色== 
 
 ## 脚注
+
 H~2~O
 n^2^
 
@@ -121,6 +121,7 @@ ___
   }
   console.log(num);
 ```
+
 显示代码行数
 
 ```javascript{.line-numbers}
@@ -130,6 +131,7 @@ ___
   }
   console.log(num);
 ```
+
 高亮代码行数
 
 ```javascript{highlight=3}
@@ -159,6 +161,7 @@ ___
 你好`asdf`你好年后
 
 ## 链接
+
 - 外部链接
 
   1. https://github.com
@@ -210,6 +213,35 @@ ___
         * 是否
       - 啊手动阀
       + asd
+
+## 表格
+
+第二行不可缺少，至少三个横杠---，左右加冒号标识居中对齐
+
+| 序号     | 名称               | 性别         | 年龄            |
+| ---     | :---:               | :---        | ---:            |
+| 1       | 史磊asdasdasdasdasd | aaaaaaaaa男  | 0              |
+| 22222   | 史磊                | 男           | 123            |
+| 3333333 | 史磊                | 男           | 11111111111111 |
+
+精简表格：左右竖线可以去掉
+
+ 序号     | 名称               | 性别         | 年龄            
+ ---     | :---:               | :---        | ---:            
+ 1       | 史磊asdasdasdasdasd | aaaaaaaaa男  | 0              
+22222   | 史磊                | 男           | 123            
+3333333 | 史磊                | 男           | 11111111111111 
+
+## GFM
+
+GitHub Flvored Markdom
+markdom是个规范，GFM是github实现的markdown的方案
+1. task list
+    - [x] item1
+    - [ ] item2
+    - [ ] item3
+2. 
+
 
 <!---下面是文档中引用的连接--->
 [好看]:http://hao123.com
