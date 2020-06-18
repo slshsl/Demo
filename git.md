@@ -79,3 +79,7 @@ branch.master.merge=refs/heads/master
 ## 添加远程连接
 - git remote add [源名称：origin] [远程仓库地址：url]
 - git remote -v:查看远程连接
+### 添加github远程仓库方式
+1. https
+2. ssh
+    需要执行`ssh-Keygen -t rsa -C "your email"`;然后将生成的公钥添加到github上
