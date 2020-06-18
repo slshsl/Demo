@@ -1,14 +1,21 @@
 # git 常用命令
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+## 添加到缓存区（索引去）
+- git add filename
+- git *.[ext]
+- git .
 
-<!-- code_chunk_output -->
+### 提交到本地仓库
+- git commit -m "message"
 
-- [git 常用命令](#git-常用命令)
-  - [获得配置](#获得配置)
-  - [添加远程连接](#添加远程连接)
-
-<!-- /code_chunk_output -->
+### 已提交到本地仓库的文件修改后的再次提交
+- 方法1
+  第一步：`git add .`
+  第二步：`git commit -m "message"`
+- 方法2
+  `git commit -a -m "message"`
+- 方法3
+  `git commit -am "message"`
 
 ## 获得配置
 - git config --list/-l
