@@ -1,14 +1,11 @@
 # vs code 使用 Markdown 编写文档 {ignore}
 
-[TCO]
-
 ## ANCHOR
 
 这是用来测试锚点的
 
 
 ## 使用 HTML 标签
----------
 
 直接使用 HTML 标签，可以设置文字居中，字体颜色等样色(HTML 语法)
 
@@ -18,7 +15,6 @@
 <div align="center" style="color:red">VS Code 使用 Markdown 编写文档</div>
 
 ## 标题写法
----------
 
 ```code
     注：# 后面保持空格（和使用 h1/h2 标签功能类似）
@@ -36,7 +32,6 @@
 ```
 
 ## 文本
----------
 
 ### 普通文本
 
@@ -70,7 +65,6 @@
 
 
 ## 引用
----------
 
 ```code
 单行式：
@@ -100,7 +94,6 @@
 >>> hello world!
 
 ## 强调（粗体、倾斜、删除）
----------
 
 *斜体*、_斜体_
 
@@ -113,19 +106,16 @@
 $\underline{下划线}$
 
 ## 标记 demo
----------
 
 ==背景色== 
 
 ## 脚注
----------
 
 H~2~O
 n^2^
 
 
 ## 语义标签
----------
 
 <i>斜体</i>
 <b>加粗</b>
@@ -137,7 +127,6 @@ Z<sub>a</sub>
 <kbd>Ctrl</kbd>
 
 ## 分隔符
----------
 
 三个或者更多星号、连接符(横线)、下划线
 ***
@@ -145,7 +134,6 @@ Z<sub>a</sub>
 ___
 
 ## 代码块
----------
 
 ```code
   <div></div>
@@ -196,12 +184,10 @@ ___
 ```
 
 ## 行内标记
----------
 
 你好`asdf`你好年后
 
 ## 链接
----------
 
 - 外部链接
 
@@ -228,7 +214,6 @@ ___
   4. 链接本文档其他部分：[标记]
 
 ## 图片链接
----------
 
 基本格式：
 
@@ -262,7 +247,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
   ![百度]
 
 ## 锚点
----------
+
 其实呢，每一个标题都是一个锚点，和HTML的锚点（`#`）类似，比如我们 
 
 |语法|效果|
@@ -273,7 +258,6 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 > 以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！  
 
 ## 列表
----------
 
   1. 有序列表:这是一级的有序列表(在github中，数字1还是1)
       1. 姓名:这是二级的有序列表(在github中，阿拉伯数字在显示的时候变成了罗马数字)
@@ -290,7 +274,6 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
       + asd
 
 ## 表格
----------
 
 | 序号 | 名称 | 性别 | 年龄 |
 | ---  | --- | --- | ---  |
@@ -307,6 +290,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
  3    | sl | 男  | 35   
 
 ### 对齐
+
 表格可以指定对齐方式
 
 | 左对齐 | 居中  | 右对齐 |
@@ -316,7 +300,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 | zebra stripes | are neat        |    $1 |
 
 ## GFM
----------
+
 GitHub Flvored Markdom，GFM
 markdom是个规范，GFM是github实现的markdown的方案
 1. task list
@@ -329,10 +313,12 @@ markdom是个规范，GFM是github实现的markdown的方案
     - :sleeping:
 
 ## diff语法
----------
+
 版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。
 GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。
+
 #### 语法
+
 其语法与代码高亮类似，只是在三个反引号后面写diff，
 并且其内容中，可以用 `+ `开头表示新增，`- `开头表示删除。
 另外还有有 `!`和`#`的语法。
