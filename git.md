@@ -1,6 +1,6 @@
 # git 常用命令
 
-## 添加到缓存区（索引去）
+## 添加到缓存区（索引区）
 - git add filename
 - git *.[ext]
 - git .
@@ -9,12 +9,12 @@
 - git commit -m "message"
 
 ### 已提交到本地仓库的文件修改后的再次提交
-- 方法1
-  第一步：`git add .`
+- 方法1  
+  第一步：`git add .`  
   第二步：`git commit -m "message"`
-- 方法2
+- 方法2  
   `git commit -a -m "message"`
-- 方法3
+- 方法3  
   `git commit -am "message"`
 
 ## 获得配置
