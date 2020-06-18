@@ -1,5 +1,15 @@
 # git 常用命令
 
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [git 常用命令](#git-常用命令)
+  - [获得配置](#获得配置)
+  - [添加远程连接](#添加远程连接)
+
+<!-- /code_chunk_output -->
+
 ## 获得配置
 - git config --list/-l
 
@@ -65,3 +75,7 @@ branch.master.merge=refs/heads/master
 ```
 >上面第38、39行，添加用户名和邮箱一般在全局里配置
 >上面第46行是为解决在windows系统下回车换行与linux系统下的换行不同，没有此配置在`git add .`时会有警告信息
+
+## 添加远程连接
+- git remote add [源名称：origin] [远程仓库地址：url]
+- git remote -v:查看远程连接
